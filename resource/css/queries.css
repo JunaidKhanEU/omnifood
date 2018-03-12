@@ -1,0 +1,240 @@
+/* big tablet to 1200 px, our row width is 1140px, so this 1200 provide better margin width : from 1024px to 1200px */
+
+@media only screen and (max-width:1200px) {
+
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+
+
+    }
+
+
+    .row {
+        padding: 0 2%;
+    }
+
+}
+
+
+
+
+/* small tablet to big tablet from : from 768px to 1023px */
+
+@media only screen and (max-width:1023px) {
+
+    html {
+        font-size: 15px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .cities-box-items {
+
+
+        padding: 2px 2px;
+
+
+    }
+
+    cities-box-icon-text {
+
+        padding: 2px 2px;
+
+    }
+
+
+    .icon-small {
+
+        /*width: 30px;*/
+        font-size: 90%;
+
+        line-height: 100%;
+        margin: 0;
+
+    }
+
+
+
+    h3 {
+        font-size: 90%;
+    }
+
+
+    .cities-box-icon-text {
+        padding: 0px;
+    }
+
+    .price-col {
+
+        padding-left: 0px;
+    }
+
+    .price-col-list span {
+
+        font-size: 86%;
+    }
+
+    .long-copy {
+
+        width: 100%;
+        margin-left: 2px;
+
+
+    }
+
+    .contactform {
+        width: 80%;
+    }
+
+
+}
+
+
+
+
+/* larger phone screen or small tablet* : from 481 to 767px */
+
+@media only screen and (max-width:767px) {
+
+    html {
+        font-size: 12px;
+
+
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+
+
+    .contactform {
+        width: 90%;
+    }
+
+    .row,
+    .hero-text-box {
+
+        padding: 0 4%;
+
+    }
+
+    .col {
+        width: 100%;
+        margin: 1% 0 4% 0;
+    }
+
+    h1 {
+        font-size: 160%;
+    }
+
+    .main-nav {
+        display: block;
+    }
+
+
+
+    .step-text {
+        margin-bottom: 30px;
+
+    }
+
+
+    .step-text:last-of-type {
+
+        margin-bottom: 60px;
+
+    }
+    .step-text div {
+
+        width: 35px;
+        height: 35px;
+
+        padding: 5px;
+
+        font-size: 150%;
+        margin-right: 15px;
+
+    }
+
+    .step-box:first-child {
+
+        text-align: center;
+        margin-top: 10px;
+
+    }
+
+    .step-box:last-child {
+
+        margin-top: 30px;
+    }
+
+    .hero-text-box {
+
+        text-align: center;
+
+    }
+
+    .logo {
+
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .big-icon {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+}
+
+
+/* small iphone screen*/
+
+@media only screen and (max-width:480px) {
+
+    h2 {
+
+        font-size: 150%;
+    }
+
+    .row,
+    .hero-text-box {
+
+        padding: 0 1%;
+
+    }
+
+    .contactform {
+        width: 90%;
+    }
+
+    .price-col-list span {
+
+        font-size: 130%;
+    }
+    
+     .main-nav {
+        display: block;
+         font-size: 70%;
+             padding:1px;
+             word-spacing: 0;
+         float: left;
+    }
+    
+    .main-nav li {
+   
+    margin-left: 4px;
+        
+}
+    
+}
